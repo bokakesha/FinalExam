@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background: url("../images/piggy-bank-2889042_1920.jpg") no-repeat center center fixed;
+    min-height: 100%;
+    padding: 0 10px;
+    background-size: cover;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+li {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+}
+
+li:hover {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+}
+
+.dollar-signs {
+    position: relative;
+    height: 7%;
+    width: 7%;
+    margin: 1vh 0 0 1vw;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.dollar-signs:hover {
+    -webkit-filter: invert(0.5);
+    filter: invert(0.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+
+#nav-bar {
+    width: 50%;
+    height: auto;
+    position: relative;
+    float: right;
+    margin: 1vh 0 0 1vw;
+}
+
+.nav-element {
+    list-style-type: none;
+    font-size: 3vh;
+    margin-top: 2.5vh;
+    margin-right: 2vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding: 2vw;
+}
+
+a:hover {
+    color: #ffd658;
+}
+
+.currency-section {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    color: white;
+    height: 100%;
+    width: 40%;
+    margin: auto;
+    background-color: rgba(19, 13, 0, 0.5);
+    padding: 10px;
+}
+
+.currency-section table {
+    width: 50%;
+    margin: auto;
+}
+
+.currency-section table thead tr th,
+.currency-section table tbody tr th,
+.currency-section table tbody tr td {
+    text-align: center;
+}
+
+.currency-section table td,
+.currency-section table th {
+    border-bottom: 1px solid #454D55;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.currency-section table td {
+    font-size: 1.3rem;
+}
+@media (max-width:900px) {
+
+}

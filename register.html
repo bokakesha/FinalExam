@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/register-style.css">
+    <script rel="script" src="scripts/register.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <img class="dollar-signs" src="images/—Pngtree—euro%20line%20black%20icon_3767570.png" alt="dollarsign">
+        <nav id="nav-bar">
+            <ul>
+                <li class="nav-element"><a href="index.html">Home</a></li>
+                <li class="nav-element"><a href="currencies.html">View Currencies</a></li>
+                <li class="nav-element"><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <div class="title">
+            registrate to join us
+        </div>
+        <form class="form" method="post">
+            <div id='error_firstName' class="error-div"></div>
+            <div class="input-field">
+                <label for="first-name">First Name</label>
+                <input type="text" class="input" id="first-name">
+            </div>
+            <div id='error_lastName' class="error-div"></div>
+            <div class="input-field">
+                <label for="last-name">Last Name</label>
+                <input type="text" class="input" id="last-name">
+            </div>
+            <div id='error_password' class="error-div"></div>
+            <div class="input-field">
+                <label for="password">Password</label>
+                <input type="password" class="input" id="password">
+            </div>
+            <div id='error_confirmPassword' class="error-div"></div>
+            <div class="input-field">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" class="input" id="confirm-password">
+            </div>
+            <div id='error_email' class="error-div"></div>
+            <div class="input-field">
+                <label for="email">Email Address</label>
+                <input type="text" class="input" id="email">
+            </div>
+            <div id='error_checkbox' class="error-div"></div>
+            <div class="input-field terms">
+                <label class="check">
+                    <input type="checkbox" id="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <p>I accept the Terms of Use & Privacy Policy</p>
+            </div>
+            <div class="input-field">
+                <input type="submit" value="Register" class="btn" id="submit-button">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
